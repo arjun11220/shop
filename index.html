@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Comptible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,intial-scale">
+    <title>Shopping Tutorial</title>
+
+    <!--Bootstrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top py-2">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fal fa-bars"></i></span>
+          </button>
+          <form class="container-fluid">
+              <div class="input-group container-fluid">
+            <input class="form-control form-control-lg" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item bg-light">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#"><i class="fas fa-cart-arrow-down">Card</i></a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2500">
+                <img src="img/back.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img src="img/back-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/back-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+<section class="type row mx-auto">
+  <ul>
+    <li class="col-lg-2 col-md-2 col-4"><a href="#mobile"><img src="img/type/1.png" alt=""></a></li>
+    <li class="col-lg-2 col-md-2 col-4"><a href="#new"><img src="img/type/2.png" alt=""></a></li>
+    <li class="col-lg-2 col-md-2 col-4"><a href="#clothes"><img src="img/type/3.png" alt=""></a></li>
+    <li class="col-lg-2 col-md-2 col-4"><a href="#chair"><img src="img/type/4.jpg" alt=""></a></li>
+    <li class="col-lg-2 col-md-2 col-4"><a href="#watches"><img src="img/type/5.png" alt=""></a></li>
+    <li class="col-lg-2 col-md-2 col-4"><a href="#featured"><img src="img/type/6.png" alt=""></a></li>
+     
+    
+  </ul>
+
+</section>
+<section id="featured" class="mb-4 pb-5">
+  <div class="cantainer text-center py-5">
+    <h3>New Arrival</h3>
+    <hr class="mx-auto pb-1">
+
+  </div>
+  <div class="row mx-auto container-fluid">
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/featured/1.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">TV</h5>
+      <h4 class="p-price">10000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/featured/2.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">TV</h5>
+      <h4 class="p-price">20000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/featured/3.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">TV</h5>
+      <h4 class="p-price">30000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/featured/4.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">TV</h5>
+      <h4 class="p-price">50000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<section id="new" class="w-100">
+  <div class="row p-0 m-0">
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+      <img class="img-fluid" src="img/new/1.jpg" alt="">
+      <div class="details">
+        <h2>Exclusive price</h2>
+        <button class="text-uppercase">Shop Now</button>
+      </div>
+    </div>
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+      <img class="img-fluid" src="img/new/2.jpeg" alt="">
+      <div class="details">
+        <h2>Exclusive price</h2>
+        <button class="text-uppercase">Shop Now</button>
+      </div>
+    </div>
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+      <img class="img-fluid" src="img/new/3.jpg" alt="">
+      <div class="details">
+        <h2>Exclusive price</h2>
+        <button class="text-uppercase">Shop Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="mobile" class="mb-4 pb-5">
+  <div class="cantainer text-center py-5">
+    <h3>New Mobile</h3>
+    <hr class="mx-auto">
+    <P>Here you check out new exclusive product.</P>
+
+
+  </div>
+  <div class="row mx-auto container-fluid">
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/mobile/1.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Realme</h5>
+      <h4 class="p-price">10000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/mobile/2.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Oppo</h5>
+      <h4 class="p-price">20000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/mobile/3.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Poco</h5>
+      <h4 class="p-price">30000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/mobile/4.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">TV</h5>
+      <h4 class="p-price">50000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+</section>
+<section id="banner" class="my-5 py-5">
+  <div class="container">
+    <h4>Summer Sale Is Running</h4>
+    <h1>Special Collection <br> Up To 50% off</h1>
+    <button class="text-uppercase">Shop Now</button>
+  </div>
+
+</section>
+
+
+
+
+<section id="mobile" class="mb-4 pb-5">
+  <div class="cantainer text-center py-5">
+    <h3>Tredding Dresses</h3>
+    <hr class="mx-auto">
+    <P>Here you check out new exclusive product.</P>
+
+
+  </div>
+  <div class="row mx-auto container-fluid">
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/clothes/1.jpg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">T-shirt</h5>
+      <h4 class="p-price">500 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/clothes/2.jpg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">jacket</h5>
+      <h4 class="p-price">1500 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/clothes/3.jpg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">jacket</h5>
+      <h4 class="p-price">3000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/clothes/4.jpg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">T-shirt</h5>
+      <h4 class="p-price">5000Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+</section>
+
+<section id="watches" class="mb-4 pb-5">
+  <div class="cantainer text-center py-5">
+    <h3>Best Gift</h3>
+    <hr class="mx-auto">
+    <P>Here you check out new exclusive product.</P>
+
+
+  </div>
+  <div class="row mx-auto container-fluid">
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/home/1.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Tree</h5>
+      <h4 class="p-price">&500</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/home/2.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Need</h5>
+      <h4 class="p-price">&1500 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/home/3.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">fruit</h5>
+      <h4 class="p-price">&300</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/home/4.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">flower</h5>
+      <h4 class="p-price">&500</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<section id="chair" class="mb-4 pb-5">
+  <div class="cantainer text-center py-5">
+    <h3>Best furniture</h3>
+    <hr class="mx-auto">
+    <P>Here you check out new exclusive product.</P>
+
+
+  </div>
+  <div class="row mx-auto container-fluid">
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/furniture/1.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Sofa</h5>
+      <h4 class="p-price">&5000 Rs</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/furniture/2.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Sofa</h5>
+      <h4 class="p-price">&1500</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/furniture/3.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Sofa</h5>
+      <h4 class="p-price">&3000</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <img class="img-fluid mb-3"src="img/furniture/4.jpeg" alt="">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Sofa</h5>
+      <h4 class="p-price">&5000</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+</section>
+
+<footer class="mt-5 py-5">
+  <div class="row container mx-auto pt-5">
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+    <h5 class="pb-2">Download Our App</h5>
+    <P>Download App for Android and ios mobile phone</P>
+    <div class="row">
+      <img class="img-fluid w-50 h-50 m-2" src="img/play-store.png">
+      <img class="img-fluid w-50 h-50 m-2" src="img/app-store.png">
+      
+
+    </div>
+    </div>
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <img src="img/logo.png" alt="">
+      <p class="pt-3">Our Ecommerce is open 24*7 for you.You will get fast delivery here.</p>
+    </div>
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <h5 class="pb-2">featured</h5>
+      <ul class="text-uppercase list-unstyled">
+        <li><a href="#">coupons</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Return policy</a></li>
+        <li><a href="#">join affiliate</a></li>
+        
+      </ul>
+    </div>
+    <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">Social media</h5>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="copyright mt-5">
+    <div class="row container mx-auto">
+      <hr>
+      <div class="text-nowrap mb-2">
+        <p>copy right @2021 from proSchool</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
